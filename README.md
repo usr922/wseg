@@ -136,7 +136,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 
 For integrating our approach into the [EPS](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf) model, you can change branch to ```EPS``` via:
 ```angular2html
-git checkout EPS
+git checkout eps; cd wEPS 
 ```
 Then conduct train or inference following instructions above.
 
