@@ -80,7 +80,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 ### Step2: Refine with AffinityNet.
 1. Preparation.
 
-   Prepare...
+   Prepare the files (```la_crf_dir``` and ```ha_crf_dir```) needed for training AffinityNet. You can also use our processed crf outputs with ```alpha=4/8``` from here.
    ```
    python aff_prepare.py \
      --voc12_root VOC2012 \
@@ -99,6 +99,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
    ```
 
 3. Random walk propagation & Evaluation.
+   Use the trained AffinityNet to conduct RandomWalk for refining the CAMs from Step1. Trained model can be found in Model Zoo.
    ```
    python aff_infer.py \
      --weights $aff_weights \
@@ -109,6 +110,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
    ```
 
 4. Pseudo mask generation. 
+   Generate the pseudo masks for training the DeepLab Model. Dense CRF is used in this step.
    ```
    python aff_infer.py \
      --weights $aff_weights \
