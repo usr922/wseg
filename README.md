@@ -145,7 +145,7 @@ For integrating our approach into the [EPS](https://openaccess.thecvf.com/conten
 ```angular2html
 git checkout eps; cd wEPS 
 ```
-Then conduct train or inference following instructions above.
+Then conduct train or inference following instructions above. Trained models & processed files can be download in Model Zoo.
 
 ## Acknowledgements
 We sincerely thank [Yude Wang](https://scholar.google.com/citations?user=5aGpONMAAAAJ&hl=en) for his great work SEAM in CVPR'20. We borrow codes heavly from his repositories [SEAM](https://github.com/YudeWang/SEAM) and [Segmentation](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
