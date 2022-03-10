@@ -67,6 +67,8 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
    ```
 
 3. Evaluation.
+
+   Following SEAM, we recommend you to use ```--curve``` to select a proper background threshold.
    ```
    python eval.py \
      --list VOC2012/ImageSets/Segmentation/$[val.txt | train.txt] \
