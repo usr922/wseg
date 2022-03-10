@@ -56,7 +56,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 
 2. Contrast inference.
 
-   Download the pretrained model from ... or train from scratch.
+   Download the pretrained model from [...] or train from scratch, set ```--weight``` and then run:
    ```
    python contrast_infer.py \
      --weights $contrast_weight \ 
@@ -99,6 +99,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
    ```
 
 3. Random walk propagation & Evaluation.
+
    Use the trained AffinityNet to conduct RandomWalk for refining the CAMs from Step1. Trained model can be found in Model Zoo.
    ```
    python aff_infer.py \
