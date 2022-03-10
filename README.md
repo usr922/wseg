@@ -68,7 +68,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 
 3. Evaluation.
 
-   Following SEAM, we recommend you to use ```--curve``` to select a proper background threshold.
+   Following SEAM, we recommend you to use ```--curve``` to select an optimial background threshold.
    ```
    python eval.py \
      --list VOC2012/ImageSets/Segmentation/$[val.txt | train.txt] \
@@ -126,8 +126,8 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 
 ### Step3: Segmentation training with DeepLab
 1. Training. 
-
-   cd ```segmentation/experiment/seamv1-pseudovoc/```. Set ```DATA_PSEUDO_GT: $your_pseudo_label_path``` in ```config.py```. Then run:
+   
+   we use the segmentation repo from https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc. Training and inference codes are available in ```segmentation/experiment/```. Set ```DATA_PSEUDO_GT: $your_pseudo_label_path``` in ```config.py```. Then run:
    ```
    python train.py
    ```
@@ -138,7 +138,9 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
    ```
    python test.py
    ```
-
+   
+   For test set evaluation, you need to download test set images and submit the segmentation results to the official voc server.
+   
 For integrating our approach into the [EPS](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf) model, you can change branch to ```EPS``` via:
 ```angular2html
 git checkout eps; cd wEPS 
