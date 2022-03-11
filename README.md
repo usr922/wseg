@@ -1,4 +1,4 @@
-# Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast
+# wseg
 
 ## Overview
 The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast._
