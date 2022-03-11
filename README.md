@@ -151,7 +151,7 @@ For integrating our approach into the [EPS](https://openaccess.thecvf.com/conten
 ```angular2html
 git checkout eps
 ```
-Then conduct train or inference following instructions above. Segmentation training follows the same repo in ```segmentation```. Trained models & processed files can be download in Model Zoo. Note that for EPS, we refine pseudo masks by densecrf for training DeepLabv1/v2, while EPS uses pure pseudo masks without any refinement. To make a fair comparison, we also do experiments with pure pseuso masks too, and achieve similar results (72.0 with deeplabv1 and 72.9 with deeplabv2, on validation set). 
+Then conduct train or inference following instructions above. Segmentation training follows the same repo in ```segmentation```. Trained models & processed files can be download in Model Zoo.
 
 ## Acknowledgements
 We sincerely thank [Yude Wang](https://scholar.google.com/citations?user=5aGpONMAAAAJ&hl=en) for his great work SEAM in CVPR'20. We borrow codes heavly from his repositories [SEAM](https://github.com/YudeWang/SEAM) and [Segmentation](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
