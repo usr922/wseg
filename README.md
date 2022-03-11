@@ -28,7 +28,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
  
 
 ## Model Zoo
-   Download the pretrained model from ... and training results together with intermediate products from ...
+   Download the trained models below:
    
    | baseline | model       | train(mIoU) | val(mIoU) | test (mIoU) |   checkpoint   |                     category performance                     |
 | -------- | ----------- | :---------: | :-------: | :---------: | :------------: | :----------------------------------------------------------: |
@@ -41,7 +41,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 
  \* indicates using densecrf.
 
-   The generated initial seeds, pseudo masks for training can be downloaded [here]().
+   The training results including initial seeds, intermediate products and pseudo masks can be found [here]().
 
 ## Usage
 
