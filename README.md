@@ -1,7 +1,7 @@
 # Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast
 
 ## Overview
-The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast.
+The Pytorch implementation of the CVPR'2020 paper _Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast._
 
 [[arXiv]](https://arxiv.org/abs/2110.07110)
 
