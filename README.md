@@ -88,7 +88,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 ### Step2: Refine with AffinityNet.
 1. Preparation.
 
-   Prepare the files (```la_crf_dir``` and ```ha_crf_dir```) needed for training AffinityNet. You can also use our processed crf outputs with ```alpha=4/8``` from here.
+   Prepare the files (```la_crf_dir``` and ```ha_crf_dir```) needed for training AffinityNet. You can also use our processed crf outputs with ```alpha=4/8``` from [here]().
    ```
    python aff_prepare.py \
      --voc12_root VOC2012 \
