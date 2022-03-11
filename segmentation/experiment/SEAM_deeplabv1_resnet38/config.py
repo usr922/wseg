@@ -24,7 +24,7 @@ config_dict = {
 		'DATA_RANDOM_S': 10,
 		'DATA_RANDOM_V': 10,
 		'DATA_RANDOMFLIP': 0.5,
-		'DATA_PSEUDO_GT': '/home/duye/model/SEAMplus/store/AffinityNet/rw_train_aug',
+		'DATA_PSEUDO_GT': 'your_pseudo_label_dir',
 		
 		'MODEL_NAME': 'deeplabv1',
 		'MODEL_BACKBONE': 'resnet38',
@@ -57,7 +57,6 @@ config_dict['MODEL_SAVE_DIR'] = os.path.join(config_dict['ROOT_DIR'],'model',con
 config_dict['TRAIN_CKPT'] = None
 config_dict['LOG_DIR'] = os.path.join(config_dict['ROOT_DIR'],'log',config_dict['EXP_NAME'])
 # for test, must be updated
-config_dict['TEST_CKPT'] = os.path.join(config_dict['ROOT_DIR'],
-										'model/SEAM_deeplabv1_resnet38/deeplabv1_resnet38_VOCDataset_itr20000_all.pth')
+config_dict['TEST_CKPT'] = os.path.join(config_dict['ROOT_DIR'], 'your_ckpt.pth')
 
 sys.path.insert(0, os.path.join(config_dict['ROOT_DIR'], 'lib'))
