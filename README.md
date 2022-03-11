@@ -39,7 +39,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 |          | deeplabv1   |      -      |   72.3*   |    73.5*    | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/SRIYRF.html) |
 |          | deeplabv2   |      -      |   72.6*   |    73.6*    | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/VBHIW6.html) |
 
-* indicates using densecrf.
+ \* indicates using densecrf.
 
    The generated initial seeds, pseudo masks for training can be downloaded [here]().
 
