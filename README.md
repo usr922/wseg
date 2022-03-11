@@ -22,13 +22,18 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 
 1. Clone this repository.
 2. Data preparation.
-   Download PASCAL VOC 2012 devkit follow instructions in http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit. It is suggested to make a soft link toward downloaded dataset. Then download the annotation of VOC 2012 trainaug set (containing 10582 images) from https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0 and place them all as ```VOC2012/SegmentationClassAug/xxxxxx.png```. Download the image-level labels ```cls_label.npy``` from https://github.com/YudeWang/SEAM/tree/master/voc12/cls_label.npy
+   Download PASCAL VOC 2012 devkit following instructions in http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit. 
+   It is suggested to make a soft link toward downloaded dataset. 
+   Then download the annotation of VOC 2012 trainaug set (containing 10582 images) from https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0 and place them all as ```VOC2012/SegmentationClassAug/xxxxxx.png```. 
+   Download the image-level labels ```cls_label.npy``` from https://github.com/YudeWang/SEAM/tree/master/voc12/cls_label.npy and place it into ```voc12/```, or you can generate it by yourself.
 3. Download ImageNet pretrained backbones.
-   We use ResNet-38 for initial seeds generation and ResNet-101 for segmentation training. Download pretrained ResNet-38 from https://drive.google.com/file/d/15F13LEL5aO45JU-j45PYjzv5KW5bn_Pn/view
+   We use ResNet-38 for initial seeds generation and ResNet-101 for segmentation training. 
+   Download pretrained ResNet-38 from https://drive.google.com/file/d/15F13LEL5aO45JU-j45PYjzv5KW5bn_Pn/view.
+   The ResNet-101 can be downloaded from https://download.pytorch.org/models/resnet101-5d3b4d8f.pth.
  
 
 ## Model Zoo
-   Download the trained models below:
+   Download the trained models and category performance below.
    
    | baseline | model       | train(mIoU) | val(mIoU) | test (mIoU) |   checkpoint   |                     category performance                     |
 | -------- | ----------- | :---------: | :-------: | :---------: | :------------: | :----------------------------------------------------------: |
