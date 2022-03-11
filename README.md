@@ -30,14 +30,15 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
 ## Model Zoo
    Download the pretrained model from ... and training results together with intermediate products from ...
    
-|     | Model | val | +crf | test | +crf | Checkpoint | Link |
-| --- | --- | --- | --- | --- | --- |--------------------------| --- |
-| SEAM | contrast | 55.55 | 55.55 | 55.55 | 55.55 | [Download]()             | -   |
-|     | affinitynet | 55.55 | 55.55 | 55.55 | 55.55 | [Download]()             | -   |
-|     | deeplabv1 | 55.55 | 55.55 | 55.55 | 55.55 | [Download]()             | https:// |
-| EPS | contrast | 55.55 | 55.55 | 55.55 | 55.55 | [Download]()             | -   |
-|     | deeplabv1 | 55.55 | 55.55 | 55.55 | 55.55 | [Download]()             | http:// |
-|     | deeplabv2 | 55.55 | 55.55 | 55.55 | 55.55 | [Download]()             | http:// |
+| baseline | model       | train | val   | test  | checkpoint     | category performance                                             |
+| -------- | ----------- | ----- | ----- | ----- | -------------- | ---------------------------------------------------------------- |
+| SEAM     | contrast    | 61.5  | 58.4  | -     | [[download]]() |                                                                  |
+|          | affinitynet | 69.2  | -     |       | [[download]]() |                                                                  |
+|          | deeplabv1   | -     | 67.7* | 67.4* | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/FVG7VK.html) |
+| EPS      | contrast    | 70.5  | -     | -     | [[download]]() |                                                                  |
+|          | deeplabv1   | -     | 72.3* | 73.5* | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/SRIYRF.html) |
+|          | deeplabv2   | -     | 72.6* | 73.6* | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/VBHIW6.html) |
+* indicates using densecrf.
 
    The generated initial seeds, pseudo masks for training can be downloaded [here]().
 
