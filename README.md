@@ -32,7 +32,7 @@ The Pytorch implementation of Weakly Supervised Semantic Segmentation by Pixel-t
    
 | baseline | model       | train (mIoU) | val (mIoU)   | test (mIoU)  | checkpoint     | category performance                                             |
 | -------- | ----------- | ----- | ----- | ----- | -------------- | ---------------------------------------------------------------- |
-| SEAM     | contrast    | 61.5  | 58.4  | -     | [[download]]() |                                                                  |
+| SEAM     | contrast    | :61.5:  | 58.4  | -     | [[download]]() |                                                                  |
 |          | affinitynet | 69.2  | -     |       | [[download]]() |                                                                  |
 |          | deeplabv1   | -     | 67.7* | 67.4* | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/FVG7VK.html) |
 | EPS      | contrast    | 70.5  | -     | -     | [[download]]() |                                                                  |
