@@ -37,12 +37,12 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
    
    | baseline | model       | train(mIoU) | val(mIoU) | test (mIoU) |   checkpoint   |                     category performance                     |
 | -------- | ----------- | :---------: | :-------: | :---------: | :------------: | :----------------------------------------------------------: |
-| SEAM     | contrast    |    61.5     |   58.4    |      -      | [[download]]() |                                                              |
-|          | affinitynet |    69.2     |     -     |             | [[download]]() |                                                              |
-|          | deeplabv1   |      -      |   67.7*   |    67.4*    | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/FVG7VK.html) |
-| EPS      | contrast    |    70.5     |     -     |      -      | [[download]]() |                                                              |
-|          | deeplabv1   |      -      |   72.3*   |    73.5*    | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/SRIYRF.html) |
-|          | deeplabv2   |      -      |   72.6*   |    73.6*    | [[download]]() | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/VBHIW6.html) |
+| SEAM     | contrast    |    61.5     |   58.4    |      -      | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQSKoJ6CDU0cMjd2?e=dFlHgN) |                                                              |
+|          | affinitynet |    69.2     |     -     |             | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQXi0SSkbUc2sl8o?e=AY7AzX) |                                                              |
+|          | deeplabv1   |      -      |   67.7*   |    67.4*    | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQgpb3QawPCsKPe9?e=4vly0H) | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/FVG7VK.html) |
+| EPS      | contrast    |    70.5     |     -     |      -      | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQcQx4N7UNaDNUbN?e=pRAUGD) |                                                              |
+|          | deeplabv1   |      -      |   72.3*   |    73.5*    | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQLFRr-d2lYD7WYn?e=7a1Yhs) | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/SRIYRF.html) |
+|          | deeplabv2   |      -      |   72.6*   |    73.6*    | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQZQUU9N2Sg-0Hm1?e=Z0KUBi) | [[link]](http://host.robots.ox.ac.uk:8080/anonymous/VBHIW6.html) |
 
  \* indicates using densecrf.
 
