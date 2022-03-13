@@ -62,7 +62,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 
 2. Contrast inference.
 
-   Download the pretrained model from [...] or train from scratch, set ```--weight``` and then run:
+   Download the pretrained model from https://github.com/usr922/wseg/blob/master or train from scratch, set ```--weight``` and then run:
    ```
    python contrast_infer.py \
      --weights $contrast_weight \ 
@@ -108,7 +108,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 
 3. Random walk propagation & Evaluation.
 
-   Use the trained AffinityNet to conduct RandomWalk for refining the CAMs from Step1. Trained model can be found in Model Zoo.
+   Use the trained AffinityNet to conduct RandomWalk for refining the CAMs from Step1. Trained model can be found in Model Zoo (https://1drv.ms/u/s!AgGL9MGcRHv0mQXi0SSkbUc2sl8o?e=AY7AzX).
    ```
    python aff_infer.py \
      --weights $aff_weights \
@@ -140,7 +140,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 
 2. Inference. 
 
-   Check test configration in ```config.py``` (ckpt path) and val/test set selection in ```test.py```.  Then run:
+   Check test configration in ```config.py``` (ckpt path, trained model: https://1drv.ms/u/s!AgGL9MGcRHv0mQgpb3QawPCsKPe9?e=4vly0H) and val/test set selection in ```test.py```.  Then run:
    ```
    python test.py
    ```
@@ -148,9 +148,9 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
    For test set evaluation, you need to download test set images and submit the segmentation results to the official voc server.
    
 For integrating our approach into the [EPS](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf) model, you can change branch to ```EPS``` via:
-```angular2html
-git checkout eps
-```
+   ```angular2html
+   git checkout eps
+   ```
 Then conduct train or inference following instructions above. Segmentation training follows the same repo in ```segmentation```. Trained models & processed files can be download in Model Zoo.
 
 ## Acknowledgements
