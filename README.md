@@ -62,7 +62,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 
 2. Contrast inference.
 
-   Download the pretrained model from https://github.com/usr922/wseg/blob/master or train from scratch, set ```--weight``` and then run:
+   Download the pretrained model from https://1drv.ms/u/s!AgGL9MGcRHv0mQSKoJ6CDU0cMjd2?e=dFlHgN or train from scratch, set ```--weight``` and then run:
    ```
    python contrast_infer.py \
      --weights $contrast_weight \ 
