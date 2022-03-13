@@ -62,7 +62,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 
 2. Contrast inference.
 
-   Download the pretrained model from https://1drv.ms/u/s!AgGL9MGcRHv0mQSKoJ6CDU0cMjd2?e=dFlHgN or train from scratch, set ```--weight``` and then run:
+   Download the pretrained model from https://1drv.ms/u/s!AgGL9MGcRHv0mQSKoJ6CDU0cMjd2?e=dFlHgN or train from scratch, set ```--weights``` and then run:
    ```
    python contrast_infer.py \
      --weights $contrast_weight \ 
@@ -133,7 +133,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 ### Step3: Segmentation training with DeepLab
 1. Training. 
    
-   we use the segmentation repo from https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc. Training and inference codes are available in ```segmentation/experiment/```. Set ```DATA_PSEUDO_GT: $your_pseudo_label_path``` in ```config.py```. Then run:
+   we use the segmentation repo from https://github.com/YudeWang/semantic-segmentation-codebase. Training and inference codes are available in ```segmentation/experiment/```. Set ```DATA_PSEUDO_GT: $your_pseudo_label_path``` in ```config.py```. Then run:
    ```
    python train.py
    ```
