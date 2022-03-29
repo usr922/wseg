@@ -159,7 +159,7 @@ We also thank [Seungho Lee](https://scholar.google.com/citations?hl=zh-CN&user=v
 
 ## Citation
 ```
-@inproceedings{du2021weakly,,
+@inproceedings{du2021weakly,
   title={Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast},
   author={Du, Ye and Fu, Zehua and Liu, Qingjie and Wang, Yunhong},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
