@@ -8,9 +8,9 @@ from functools import partial
 class AffineTransformationPool:
 
     AffineFunc = [
-        # partial(F.interpolate, scale_factor=0.3, mode='bilinear', align_corners=True),  # 缩放
+        # partial(F.interpolate, scale_factor=0.3, mode='bilinear', align_corners=True),
         transforms.RandomRotation(degrees=(-20, 20)),
-        transforms.RandomHorizontalFlip(p=1),  # 水平翻转 p=1 一定翻转
+        transforms.RandomHorizontalFlip(p=1),
         transforms.LinearTransformation,  # color jitter
     ]
     def __init__(self):
