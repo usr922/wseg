@@ -5,7 +5,7 @@ from PIL import Image
 import os.path
 import random
 import numpy as np
-from wSEAM.tool import imutils
+from tool import imutils
 import torch.nn.functional as F
 
 class PolyOptimizer(torch.optim.SGD):
