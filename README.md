@@ -35,7 +35,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 ## Model Zoo
    Download the trained models and category performance below.
    
-   | baseline | model       | train (mIoU) | val (mIoU) | test (mIoU) |   checkpoint   |                     category performance (test)                     |
+   | baseline | model       | train mIoU | val mIoU | test mIoU |   checkpoint (OneDrive)   |       category performance (test)                     |
 | -------- | ----------- | :---------: | :-------: | :---------: | :------------: | :----------------------------------------------------------: |
 | SEAM     | contrast    |    61.5     |   58.4    |      -      | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQSKoJ6CDU0cMjd2?e=dFlHgN) |                                                              |
 |          | affinitynet |    69.2     |     -     |             | [[download]](https://1drv.ms/u/s!AgGL9MGcRHv0mQXi0SSkbUc2sl8o?e=AY7AzX) |                                                              |
