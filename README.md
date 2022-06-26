@@ -156,8 +156,8 @@ For integrating our approach into the [EPS](https://openaccess.thecvf.com/conten
 Then conduct train or inference following instructions above. Segmentation training follows the same repo in ```segmentation```. Trained models & processed files can be download in Model Zoo.
 
 ## Acknowledgements
-We sincerely thank [Yude Wang](https://scholar.google.com/citations?user=5aGpONMAAAAJ&hl=en) for his great work SEAM in CVPR'20. We borrow codes heavly from his repositories [SEAM](https://github.com/YudeWang/SEAM) and [Segmentation](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
-We also thank [Seungho Lee](https://scholar.google.com/citations?hl=zh-CN&user=vUM0nAgAAAAJ) for his [EPS](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf) and [jiwoon-ahn](https://github.com/jiwoon-ahn) for his [AffinityNet](https://github.com/jiwoon-ahn/psa) and [IRN](https://github.com/jiwoon-ahn/irn). Without them, we could not finish this work.
+We sincerely thank [Yude Wang](https://scholar.google.com/citations?user=5aGpONMAAAAJ&hl=en) for his great work SEAM in CVPR'20. We borrow codes heavly from his repositories [SEAM](https://github.com/YudeWang/SEAM) and [Segmentation-codebase](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
+We also thank [Seungho Lee](https://scholar.google.com/citations?hl=zh-CN&user=vUM0nAgAAAAJ) for his [EPS](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Railroad_Is_Not_a_Train_Saliency_As_Pseudo-Pixel_Supervision_for_CVPR_2021_paper.pdf) and [jiwoon-ahn](https://github.com/jiwoon-ahn) for his [PSA](https://github.com/jiwoon-ahn/psa) and [IRN](https://github.com/jiwoon-ahn/irn). Without them, we could not finish this work.
 
 ## Citation
 ```
