@@ -128,6 +128,8 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
      --voc12_root VOC2012 \
      --out_rw $your_rw_dir
    ```
+   
+   Pseudo masks of train+aug set can be downloaded here: https://drive.google.com/file/d/1TFw-e6P2tG3AYUgBLTw1pO0NVuBoXi4p/view?usp=sharing.
 
 
 ### Step3: Segmentation training with DeepLab
