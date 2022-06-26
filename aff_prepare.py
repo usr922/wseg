@@ -73,7 +73,7 @@ if __name__ == '__main__':
             np.save(os.path.join(crf_folder, name + '.npy'), crf_array)
 
 
-    alpha_list = [4, 8]
+    alpha_list = [4, 8, 16, 24, 32]
 
     for alpha in alpha_list:
         p_list = []
