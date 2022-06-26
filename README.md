@@ -46,7 +46,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 
  \* indicates using densecrf.
 
-   The training results including initial seeds, intermediate products and pseudo masks can be found [here]().
+   The training results including initial seeds, intermediate products and pseudo masks can be found [here](https://drive.google.com/file/d/1TFw-e6P2tG3AYUgBLTw1pO0NVuBoXi4p/view?usp=sharing).
 
 ## Usage
 
