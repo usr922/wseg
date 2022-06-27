@@ -108,7 +108,7 @@ The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-
 
 3. Random walk propagation & Evaluation.
 
-   Use the trained AffinityNet to conduct RandomWalk for refining the CAMs from Step1. Trained model can be found in Model Zoo (https://1drv.ms/u/s!AgGL9MGcRHv0mQXi0SSkbUc2sl8o?e=AY7AzX).
+   Use the trained AffinityNet to conduct RandomWalk for refining the CAMs from Step1. Trained model can be found in Model Zoo.
    ```
    python aff_infer.py \
      --weights $aff_weights \
