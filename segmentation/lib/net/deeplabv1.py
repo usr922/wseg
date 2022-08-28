@@ -5,7 +5,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 from net.backbone import build_backbone
-from wSEAM.utils import NETS
+from utils.registry import NETS
 
 @NETS.register_module
 class deeplabv1(nn.Module):
