@@ -5,7 +5,7 @@
 ## Overview
 The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast._
 
-[[arXiv]](https://arxiv.org/abs/2110.07110)
+[[arXiv]](https://arxiv.org/abs/2110.07110)  [[opencvf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Du_Weakly_Supervised_Semantic_Segmentation_by_Pixel-to-Prototype_Contrast_CVPR_2022_paper.pdf)
 
 >Though image-level weakly supervised semantic segmentation (WSSS) has achieved great progress with Class Activation Maps (CAMs) as the cornerstone, the large supervision gap between classification and segmentation still hampers the model to generate more complete and precise pseudo masks for segmentation. In this study, we propose weakly-supervised pixel-to-prototype contrast that can provide pixel-level supervisory signals to narrow the gap. Guided by two intuitive priors, our method is executed across different views and within per single view of an image, aiming to impose cross-view feature semantic consistency regularization and facilitate intra(inter)-class compactness(dispersion) of the feature space. Our method can be seamlessly incorporated into existing WSSS models without any changes to the base networks and does not incur any extra inference burden. Extensive experiments manifest that our method consistently improves two strong baselines by large margins, demonstrating the effectiveness.
 <img width="801" alt="图片" src="https://user-images.githubusercontent.com/83934424/157233454-9a0fbae6-2e05-4285-9042-70af1449ad96.png">
