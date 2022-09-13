@@ -1,4 +1,7 @@
 # wseg
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/weakly-supervised-semantic-segmentation-by-3/weakly-supervised-semantic-segmentation-on-1)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on-1?p=weakly-supervised-semantic-segmentation-by-3)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/weakly-supervised-semantic-segmentation-by-3/weakly-supervised-semantic-segmentation-on)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on?p=weakly-supervised-semantic-segmentation-by-3)
 
 ## Overview
 The Pytorch implementation of _Weakly Supervised Semantic Segmentation by Pixel-to-Prototype Contrast._
