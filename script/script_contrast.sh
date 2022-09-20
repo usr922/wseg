@@ -14,7 +14,7 @@ BASE_WEIGHT=${WEIGHT_ROOT}/ilsvrc-cls_rna-a1_cls1000_ep-0001.params
 
 
 # train classification network with Contrastive Learning
-CUDA_VISIBLE_DEVICES=${GPU} python3 train.py \
+CUDA_VISIBLE_DEVICES=${GPU} python3 contrast_train.py \
   --session ${SESSION} \
   --network network.${BACKBONE} \
   --data_root ${IMG_ROOT} \
@@ -31,10 +31,10 @@ CUDA_VISIBLE_DEVICES=${GPU} python3 train.py \
 DATA=train_aug # train / train_aug
 TRAINED_WEIGHT=train_log/${SESSION}/checkpoint_contrast.pth
 
-CUDA_VISIBLE_DEVICES=${GPU} python3 infer.py \
+CUDA_VISIBLE_DEVICES=${GPU} python3 contrast_infer.py \
     --infer_list data/voc12/${DATA}_id.txt \
     --img_root ${IMG_ROOT} \
-    --network network_with_PCM.${BACKBONE} \
+    --network network.${BACKBONE} \
     --weights ${TRAINED_WEIGHT} \
     --thr 0.22 \
     --n_gpus 2 \
@@ -46,8 +46,8 @@ CUDA_VISIBLE_DEVICES=${GPU} python3 infer.py \
     --crf_alpha 8
 
 # 3. evaluate CAM
-# GT_ROOT=${DATASET_ROOT}/SegmentationClassAug/
-DATA=train  # 记得改train
+GT_ROOT=${DATASET_ROOT}/SegmentationClassAug/
+DATA=train
 
 CUDA_VISIBLE_DEVICES=${GPU} python3 eval.py \
     --datalist data/voc12/${DATA}.txt \
